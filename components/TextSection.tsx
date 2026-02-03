@@ -8,7 +8,7 @@ export default function TextSection({ title, subtitle, bgColor = "bg-white" }: T
   return (
     <section className={`py-20 md:py-32 ${bgColor}`}>
       <div className="max-w-4xl mx-auto px-6 text-center">
-        <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif leading-relaxed mb-8">
+        <h2 className="text-3xl md:text-4xl font-bold leading-relaxed mb-8">
           {title}
         </h2>
         {subtitle && (
