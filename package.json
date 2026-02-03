@@ -2,6 +2,11 @@
 	"name": "@wrytes/landing-3dots",
 	"version": "0.1.0",
 	"private": true,
+	"description": "3Dots Inc. landing page - Deep Finance, Bitcoin Native, Web3 Ready",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/wrytes/3dotsinc-app.git"
+	},
 	"scripts": {
 		"dev": "next dev",
 		"build": "next build",
